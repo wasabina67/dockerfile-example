@@ -12,3 +12,7 @@ docker build -t my-ubuntu-img .
 ```bash
 docker run -it --rm my-ubuntu-img
 ```
+
+```bash
+docker run -it --rm --name my-ubuntu-ctr my-ubuntu-img
+```
